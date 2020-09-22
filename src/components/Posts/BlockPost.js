@@ -8,7 +8,7 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 import { UpperSection } from "../../reusable-components/upperSection";
-import { moyoFirestore } from "../../firebase/config";
+import { moyoFirestore } from "../../firebase.config";
 
 const useStyles = makeStyles({
 	tableContainer: {

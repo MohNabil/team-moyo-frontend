@@ -3,7 +3,7 @@ import { UpperSection } from "../../reusable-components/upperSection";
 import { Input } from "../../reusable-components/input";
 import { Button } from "../../reusable-components/button";
 import { ButtonOutlined } from "../../reusable-components/buttonOutlined";
-import { moyoFirestore } from "../../firebase/config";
+import { moyoFirestore } from "../../firebase.config";
 
 export const EditPost = ({ location }) => {
 	const data = location.state;
